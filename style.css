@@ -83,6 +83,11 @@ header .btn a {
 	border-radius: 30px;
 }
 
+header .btn a:hover {
+	cursor: pointer;
+	background-color: rgba(143, 57, 0, 1);
+}
+
 header .btn, header .logo, header .menu {
 	display: inline-block;
 }
@@ -139,6 +144,11 @@ header .btn {
 	padding: 25px 50px;
 	background-color: #ffffff;
 	border-radius: 30px;
+}
+
+.container2 .btn2 a:hover {
+	cursor: pointer;
+	background-color: rgba(143, 88, 0, 1);
 }
 
 .container3 .center {
@@ -207,6 +217,30 @@ header .btn {
 	margin-right: 40px;
 }
 
+.container3 .cards .item2 .bgimg {
+	position: relative;
+	width: 379px;
+	height: 260px;
+}
+
+.container3 .cards .item2 .bgimg:after {
+	content: '';
+	position: absolute;
+	top: 0%;
+	bottom: 0%;
+	left: 0%;
+	right: 0%;
+	background-image: url('./img/img2bg.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+	transition: 0.2s;
+	opacity: 0;
+}
+
+.container3 .cards .item2 .bgimg:hover:after {
+	opacity: 1;
+}
+
 .container5 {
 	background-image: url(./img/bg3.png);
 	max-height: 1090px;
@@ -270,6 +304,11 @@ header .btn {
 	padding: 25px 50px;
 	background-color: #ffffff;
 	border-radius: 30px;
+}
+
+.container5 .flexcontainer a:hover {
+	cursor: pointer;
+	background-color: rgba(143, 88, 0, 1);
 }
 
 .container5 .flexcontainer .btn {
